@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.close{
+	cursor:pointer;
+	}
+	</style>
+</head>
+<body>
+	<input type="text" name="txt" id="txt">
+	<input type="button" value="添加" id="add">
+	<ol id="list"></ol>
+	<input type="button" value="清空列表" id="clean">
+	<script src="libs/jquery.min.js"></script>
+	<script>
+	var txt=$('#txt');
+	var list=$('#list');
+	$('#add').click(function(){
+		var v=txt.val();
+		if(v==''){
+			alert('还没填写内容');
+		}else{
+			txt.val('');
+			var li='<li><span class="close">&times;</span>'+v+'</li>';
+			// var span=$('<span>').addClass('close').html('&times;');
+			// var li=$('<li>').text(v).prepend(span);
+			list.prepend(li);
+			//$('.close').click(function{
+			//	$(this).parent().remove();
+			//});
+		}
+	});
+	list.on('click','close',function(){
+		$(this).parent().remove();
+	});
+	$('#clean').click(function(){
+		// list.find('li').remove();
+		list.empty();
+	});
+	</script>
+</body>
+</html>
