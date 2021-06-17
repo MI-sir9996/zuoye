@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英铭电力科技有限公司</title>
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="clear webPage">
+      <div class="logo L aElem"><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/index.html"><img src="images/logo.png" alt=""></a></div>
+      <div class="nav R">
+        <ul>
+          <li><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/index.html">首页</a></li>
+          <li><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/about.html">关于我们</a></li>
+          <li><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/product.html">企业产品</a></li>
+          <li><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/honor.html">公司荣誉</a></li>
+          <li><a href="https://mi-sir9996.github.io/zuoye/英铭电力科技有限公司/contact.html" class="on">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 轮播图 -->
+  <div class="swiper-container swiper-banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/banner1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/banner2.jpg" alt=""></div>
+    </div>
+    <!-- 小圆点 -->
+    <div class="swiper-pagination"></div>
+    <!-- 左右按钮 -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- center S -->
+  <div id="center" class="contact">
+
+    <div class="centTit">
+      <h1>联系我们</h1>
+    </div>
+
+   <div class="contactBox">
+    <div class="img L">
+      <img src="images/liuyan.jpeg" alt="">
+  </div>
+    <div class="L liuyan">
+      <div class="item">
+        <span>姓名：</span>
+        <input type="text" placeholder="请输入您的姓名">
+      </div>
+      <div class="item">
+        <span>联系电话</span>
+        <input type="text" placeholder="请输入您的联系电话">
+      </div>
+      <div class="item">
+        <span>邮箱</span>
+        <input type="text" placeholder="请输入您的邮箱">
+      </div>
+      <div class="cl"></div>
+      <div class="item">
+        <span>内容</span>
+        <textarea name="" placeholder="请输入您的留言内容"></textarea>
+      </div>
+      <div class="item">
+        <button>提交</button>
+      </div>
+    </div>
+
+   
+   </div>
+
+
+  </div>
+  <!-- center E -->
+
+  <!-- footer S -->
+  <div id="footer" class="clear">
+    <div class="webPage clear footCom text-center">
+      <span>版权所有：@copy;英铭电力有限公司 公安机关备案号11010802024966号</span>
+    </div>
+  </div>
+  <!-- footer E -->
+
+  <script src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>
