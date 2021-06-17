@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* 头部 */
+.head{
+	border-top: 5px solid #09238B;
+	height: 85px;
+}
+.head .he_top{
+	position: absolute;
+	right: 0;top: 0;
+	width: 137px;
+	height: 30px;
+	background-color: #09238B;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 0 0 5px 5px;
+	transform: translateY(-3px);
+}
+.head .he_top span{
+	line-height: 30px;
+	cursor: pointer;
+}
+.head .he_top em{
+	margin: 0 15px;
+}
+.head .he_left{
+	float: left;
+	margin-top: 13px;
+}
+.head .he_left  .wen1 a{
+	 font-size: 12px;
+ color: #333333;
+ margin-top: 15px;
+}
+.head .he_left  .wen1{
+ margin-top: 15px;
+}
+.head .he_right{
+	margin-top: 58px;
+	float: right;
+}
+.head .he_right li{
+	float: left;
+	margin-right: 26px;
+}
+.head .he_right li:nth-last-of-type(1){
+	margin-right: 0px;
+}
+.head .he_right li a{
+	font-size: 14px;
+	color: #333333;
+}
+.head .he_right li a:hover{
+	color: #09238B;
+	font-weight: bold;
+}
+.yanse .zhong .you .shang p{
+	font-weight: bold;
+	margin-top: 37px;
+}
+.yanse .zhong .you .shang a{
+	display: inline-block;
+	width: 84px;
+	height: 25px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 25px;
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: bold;
+	color:blue;
+	border-radius:3px;
+	float:right;
+	margin-top: -26px;
+}
+.yanse .zhong .you .shang ul{
+	border-bottom:1px dashed #000;
+}
+.yanse .zhong .you .shang ul li{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+.yanse .zhong .you .shang ul li img{
+	margin-top: -5px;
+}
+.yanse .zhong .you .bottom{
+	margin-top: 22px;
+}
+.yanse .zhong .you .bottom p{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.yanse .zhong .you .bottom h5{
+	margin-top: 12px;
+	line-height: 29px;
+}
+.yanse .zhong .you .footer2{
+	margin-top: 50px;
+}
+.yanse .zhong .you .footer2 p{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	line-height: 38px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+
+
+
+
+
+
+/* 导航 */
+.nav{
+	font-size: 0;
+	height: 39px;
+	border-top: 1px solid #CCCCCC;
+}
+.nav a,.nav span{
+	font-size: 12px;
+	color: #333333;
+	line-height: 39px;
+}
+.nav span{
+	margin: 0 5px;
+}
+
+
+
+
+
+/* 主体 */
+.yanse{
+	height: 742px;
+	margin-top: 36px;
+	padding-top: 36px;
+
+}
+
+.yanse{
+	background:#EEEDEB;
+	widows: 100%;
+	height: 1082px;
+}
+.yanse .zhong .zuo{
+	width: 200px;
+	float: left;
+}
+.yanse .zhong .zuo ul .wen1{
+	font-size: 24px;
+	color: #0F298D;
+}
+.yanse .zhong .zuo ul a{
+	font-size: 14px;
+	color:black;
+}
+.yanse .zhong .zuo ul li{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.yanse .zhong .you{
+	width: 768px;
+	float: right;
+	margin-top: 20px;
+}
+.yanse .zhong .you .shang img{
+	margin-top: 23px;
+}
+.yanse .zhong .you .shang .wen1{
+	margin-top: 36px;
+	font-size: 16px;
+}
+.yanse .zhong .you .shang .wen2{
+	margin-top: 20px;
+}
+.yanse .zhong .you .shang ul li{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 页面内容 */
+/* 底部 */
+.footer{
+	height: 292px;
+	border-top: 4px solid #09238B;
+	background-color: #5F5F5F;
+}
+.footer .fo_top{
+	height: 59px;
+	padding: 31px 0 0 3px;
+	box-sizing: border-box;
+	border-bottom:1px solid #888888;
+}
+.footer .fo_top li{
+	font-size: 12px;
+	color: #FFFFFF;	
+	float: left;
+	margin-right: 93px;
+}
+.footer .fo_top li:nth-last-of-type(1){
+	float: right;
+	margin-right: 110px;
+}
+.footer .fo_center{
+	padding-left: 3px;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: 162px;
+}
+.footer .fo_center li{
+	width: 141px;
+	float: left;
+	font-size: 10px;
+	line-height: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.footer .fo_center li a{
+	display: block;
+	color: #C5C5C5;
+}
+
+.footer .fo_center li:nth-last-of-type(1){
+	width: 193px;
+	float: right;
+}
+.footer .fo_center li div{
+	width: 84px;
+	height: 120px;
+	float: left;
+	text-align: center;
+	margin-right: 25px;
+}
+.footer .fo_center li div:nth-child(2){
+	margin-right: 0;
+}
+.footer .fo_center li div span{
+	display: block;
+	color: #C5C5C5;
+}
+
+.footer strong{
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-image: linear-gradient(to right,transparent,#7D7D7D,transparent);
+}
+.footer p{
+	font-size: 12px;
+	color: #C5C5C5;
+	box-sizing: border-box;
+	padding: 18px 0 0 3px;
+}
+.footer p span{
+	float: right;
+}
+.footer p span a{
+	color: #C5C5C5;
+}
+.footer p span em{
+	margin: 0 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
